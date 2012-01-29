@@ -15,6 +15,7 @@ import javax.persistence.Table;
   * Chivalrous   
   * 2011-12-23 上午11:58:20   
   * 采用hibernate注解的方式来生成映射
+  * 可以参考完成其它的生成
   * @version 1.0.0   
   *
   */
