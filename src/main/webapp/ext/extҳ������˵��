@@ -1,0 +1,20 @@
+adapter文件夹 暂时不用，它是用来适配其他JS库的，如，jquery yui 等。
+
+ext-patch.css 是为了解决FF下字体不清晰的问题
+
+<link rel="stylesheet" type="text/css" href="<%=basePath%>ext/resources/css/ext-all.css"/>
+<link rel="stylesheet" type="text/css" href="<%=basePath%>ext/resources/css/ext-patch.css"/>
+<script type="text/javascript" src="<%=basePath%>ext/ext-base.js"></script>
+<script type="text/javascript" src="<%=basePath%>ext/ext-all.js"></script>
+<script type="text/javascript" src="<%=basePath%>ext/ext-lang-zh_CN.js"></script>
+
+
+
+注意：以上  引用顺序不可以改变（jsp页面一定要有basePath的声明）
+
+eclipse新建jsp页面么有basepath 下面是basepath代码  粘贴过去就行了，如果是myeclipse新建的jsp就不用粘贴了
+
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>

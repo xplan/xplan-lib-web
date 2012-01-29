@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+* {
+    border: 0 none;
+    font-size: 1em;
+    font-weight: normal;
+    list-style: none outside none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    -moz-transition: all 0.2s linear 0s;
+    color:#5580a6;
+    text-decoration: none;
+}
+a:hover {
+    color:#ffffff;
+}
+#login {
+    background: url(../images/xplan_bg.png) repeat-x scroll 0 0 #105C9A;
+    color: #FFFFFF;
+    font: 13px/1.5 'Helvetica Neue',Arial,Sans-serif;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+#page{ 
+    margin: 0 auto;
+    min-height: 200px;
+    padding: 200px 0 0;
+    text-align: center;
+    width: 964px;}
+ 
+ #page h1 {
+    background: url(../images/xplan_logo.png) no-repeat scroll center 0 transparent;
+    height: 104px;
+    margin: 0 0 55px;
+    text-indent: -9999px;
+}
+#login_form {
+    margin: 0 auto;
+    text-align: center;
+    width: 480px;
+}
+
+ul li {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 205px;
+}
+ul li.last {
+    width: 70px;
+}
+label {
+    display: inline-block;
+    margin: 0 0 3px;
+}
+.text {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid #054388;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.27), 1px 1px 2px rgba(0, 0, 0, 0.443) inset;
+    color: #888888;
+    cursor: text;
+    display: inline-block;
+    font: 13px "Helvetica Neue",Arial,sans-serif;
+    ime-mode: disabled;
+    margin: 0 0 5px;
+    padding: 7px 5px;
+    width: 180px;
+}
+.text:focus {
+    color: #666666;
+}
+.r5px {
+    border-radius: 5px 5px 5px 5px;
+}
+.button_blue {
+    background: -moz-linear-gradient(center top , #0D72D2, #0A5EC2) repeat scroll 0 0 transparent;
+    border: 1px solid #054388;
+    box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 14px/17px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 6px 15px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #204877;
+    vertical-align: middle;
+    progid:DXImageTransform.Microsoft.gradient(startColorstr='#0D72D2',endColorstr='#0A5EC2'); BORDER-LEFT: #054388 1px solid; PADDING-BOTTOM: 6px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; DISPLAY: inline-block; FONT: bold 14px/17px "Helvetica Neue", Helvetica, Arial, sans-serif; BACKGROUND: #0d72d2; COLOR: #ffffff; VERTICAL-ALIGN: middle; BORDER-TOP: #054388 1px solid; CURSOR: pointer; BORDER-RIGHT: #054388 1px solid; PADDING-TOP: 6px; text-shadow: -1px -1px 0px #204877; box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86; -moz-box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86; -webkit-box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86; -o-box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86
+}
+.last .button_blue {
+    font-weight: normal;
+    padding: 6px 0;
+    width: 68px;
+}
+.button_blue:active {
+    background: -moz-linear-gradient(center top , #0C69CC, #0A57B8) repeat scroll 0 0 transparent;
+    box-shadow: 0 1px 4px #094685 inset, 0 1px 0 #598EB8;
+}
+
+.zu-index-link-apply-x1 {
+    -moz-transition: all 0.2s linear 0s;
+    border-top: 1px solid #135C97;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding: 10px;
+    text-shadow: 0 1px 0 #0E4D81;
+}
+.zu-index-link-apply-x2 {
+    border-bottom: 1px solid #1067A3;
+    margin: 40px 0 0;
+}
+.zu-index-link-apply {
+    background: none repeat scroll 0 0 #10619E;
+    border: 1px solid #0E538C;
+    color: white;
+    display: block;
+}
+.zu-index-link-apply:hover .zu-index-link-apply-x1 {
+    color: #FFFFFF;
+}
+.clear{clear:both;}
+/*----------------注册--------------*/
+label, input[type="button"], input[type="submit"], button {
+    cursor: pointer;
+    vertical-align: middle;
+}
+#register{background: none repeat scroll 0 0 #F3F4F6;height: 100%;}
+#page_form{width: 360px;}
+#page_form h2 {
+    background: -moz-linear-gradient(center top , #1A85CB, #105E99) repeat scroll 0 0 transparent;
+    border: 1px solid #0F5C98;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 1px #EEEEEE inset;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 0 0 15px;
+    text-shadow: 0 -1px 0 #0B3F61;
+    font-weight: bold;
+   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a85cb', endColorstr='#105e99'); BORDER-LEFT: #0f5c98 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 33px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; BACKGROUND: #b3d563; HEIGHT: 33px; COLOR: #ffffff; CLEAR: both; FONT-SIZE: 14px; BORDER-TOP: #0f5c98 1px solid; BORDER-RIGHT: #0f5c98 1px solid; PADDING-TOP: 0px; box-shadow: 0 0 1px #eee inset; -moz-box-shadow: 0 0 1px #eee inset; -webkit-box-shadow: 0 0 1px #eee inset; -o-box-shadow: 0 0 1px #eee inset; text-shadow: 0 -1px 0 #0b3f61; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;
+    background: -moz-linear-gradient(center top , #1A85CB, #105E99) repeat scroll 0 0 transparent;
+   }
+.page_form_wrap {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #BABBBC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px 20px 10px;
+}
+.page_form_wrap p {
+    margin: 0 0 10px;
+}
+.page_form_wrap p label {
+    display: block;
+    margin: 0 0 5px;
+    text-indent: 5px;
+}
+.page_form_wrap p .s {
+    width: 305px;
+}.placeholder {
+    color: #AAAAAA;
+}
+.r3px {
+    border-radius: 3px 3px 3px 3px;
+}
+.content p input[type="text"], .content p input[type="password"], .s {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC !important;
+    box-shadow: 0 1px 1px #DEDEDE inset;
+    color: #777777;
+    cursor: text;
+    font-size: 14px;
+    padding: 4px 5px !important;
+}
+.fr {
+    float: right;
+}
+.page_form_wrap .button_blue {
+    font-size: 14px;
+}.c:after {
+    clear: both;
+}
+.c:before, .c:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.c:before, .c:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+
