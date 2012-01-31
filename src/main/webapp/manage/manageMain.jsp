@@ -14,8 +14,66 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<script type="text/javascript" src="<%=basePath%>ext/ext-base.js"></script>
 	<script type="text/javascript" src="<%=basePath%>ext/ext-all.js"></script>
 	<script type="text/javascript" src="<%=basePath%>ext/ext-lang-zh_CN.js"></script>
+	
+	<script type="text/javascript">
+	Ext.onReady(function(){
+		var viewport = new Ext.Viewport({
+			
+			layout: 'border',
+			items: [{
+					region:'north',
+					html:'north',
+					height:50
+				},{
+					region:'west',
+					title:'west',
+					width:200,
+					collapsible:true,
+					split:true,
+					minSize:80,
+					maxSize:200,
+					margins:'0 0 0 5',
+					layout: {
+						type:'accordion',
+						tileCollapse:true,
+						activeOnTop:false,
+						animate:true
+					},
+					items: [{
+						contentEl:'west',
+						title:'Navigation',
+						boder:false,
+						iconCls:'nav'
+					},{
+						title:'Setting',
+						html:'123466',
+						border:false,
+						iconCls:'settings'
+					},{
+						title:'Setting',
+						html:'123466',
+						border:false,
+						iconCls:'settings'
+					},{
+						title:'用户管理',
+						html:'123466',
+						border:false,
+						iconCls:'settings'
+					}]
+				}, {
+					region:'center',
+					html:'center'
+				}
+			]
+			
+		});
+	});
+	
+	</script>
 </head>
 <body>
-
+	<div id="north"></div>
+	<div id="west" ></div>
+    <div id="center" ></div>
 </body>
 </html>
