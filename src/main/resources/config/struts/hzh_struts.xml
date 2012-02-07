@@ -4,7 +4,7 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
 	<!-- 登录配置 -->
-	<package name="resetPassword" namespace="/login" extends="struts-default">
+	<package name="user" namespace="/login" extends="struts-default">
 		<action name="resetPassword" class="resetPasswordaction">
 			<result name="success"></result>
 		</action>

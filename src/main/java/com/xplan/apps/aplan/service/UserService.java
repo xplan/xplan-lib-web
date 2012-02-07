@@ -6,7 +6,7 @@ import com.xplan.apps.aplan.beans.User;
 
 /**
  * 
- * 定义服务层的接口
+ * 定义服务层增、删、查、改的接口
  *
  */
 
@@ -22,6 +22,6 @@ public interface UserService {
 
 	public void update(User user);
 	
-	public InputStream getInputStream();
+	
 
 }
